@@ -1,0 +1,82 @@
+main {
+    background-image: url(Sem\ título.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+.fundo2{
+    background-color: black;
+}
+
+svg{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+
+body {
+    background-color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+body.claro {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.escuro {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#welcome {
+    height: 100vh;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: brightness(50%);
+    color: #fff;
+}
+
+header {
+    position: absolute;
+    background-color: black;
+    height: 100vh;
+    width: 30vh;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    font-family: "ExtraLight", sans-serif;
+    color: azure;
+}
+
+.link {
+    font-family: "ExtraLight", sans-serif;
+    display: block;
+    padding: 4px 0;
+    color: azure;
+    text-transform: uppercase;
+    font-size: .8rem;
+    text-decoration: unset;
+    margin: 20px;
+}
+
+#svgg {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}

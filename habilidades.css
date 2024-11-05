@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.fundo{
+    background-color: rgb(68, 63, 63);
+    display: flex;
+   
+    width: 100%;
+}
+.imagem{
+    margin: 4%;
+}
+.habilidades{
+ color: aliceblue;
+    width: 600px;
+    height: 1800px;
+    margin-top: 10%;
+}
+.flex-container{
+    justify-content: space-around;
+    display: flex;
+}
+.habilidade h3{
+    width: 30%;
+}
+.habilidades3{
+    color: aliceblue;
+    width: 600px;
+    height: 1800px;
+    margin-top: 15%;
+}
+.habilidades6{
+    color: aliceblue;
+    width: 600px;
+    height: 1800px;
+    margin-top: 20%;
+}
+.habilidades7{
+    color: aliceblue;
+    width: 600px;
+    height: 1800px;
+    margin-top: 12%;
+}
+
+          

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    background-image: url(unnamed\ \(2\).jpg);
+ width: 80vh;
+ height: 120vh;
+    margin-left: 10px;
+    float: right;
+}
+
+#tamanho{
+
+ 
+   display: flex;
+  align-items: center;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    width: 95vh;
+  margin: 200px;
+  font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+
+   
+}
+
+ 
